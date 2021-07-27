@@ -1,0 +1,82 @@
+.screen-container {
+    position: relative;
+    align-items: center;
+    color: rgb(216, 216, 216);
+    width: fit-content;
+}
+
+
+.screen-controls {
+    display: flex;
+    background-color: rgba(46, 48, 63, 0.7);
+    padding: 7px 7px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.screen-controls > button {
+    padding: .4vh .5vw;
+    border-radius: 0.3vw;
+    border: none;
+    margin-right: 20px;
+    color: white;
+    background-color: var(--color-purple);
+    font-size: var(--button-font)
+}
+
+.play-pause {
+    color: white;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    font-size: var(--button-font);
+}
+
+.outer-progress {
+    width: 20vw;
+    height: 0.2vh;
+    background: rgb(61, 61, 61);
+    margin: 0 20px;
+    position: relative;
+    border-radius: .2vw;
+}
+
+.inner-progress {
+    background-color: white;
+    height: 100%;
+    width: 40%;
+    border-radius: .2vw;
+}
+
+.time {
+    margin-right: 20px
+}
+
+.time > span {
+    margin: 0 5px;
+}
+
+.screen-controls > i {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: var(--button-font);
+}
+
+.mute {
+    margin-right: 20px;
+}
+
+
+
+
+.screen-container > video {
+    width: 65vw;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(32, 32, 32));
+    border-radius: 1vw;
+}

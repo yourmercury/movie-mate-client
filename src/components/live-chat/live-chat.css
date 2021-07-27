@@ -1,11 +1,9 @@
 .liveChat-container {
     background-color: var(--theme-2);
     width: 20vw;
-    height: 60vh;
-    border-radius: 10px;
+    border-radius: 1vw;
     color: white;
     padding-left: 20px;
-    margin: 10px;
     position: relative;
 }
 
@@ -33,7 +31,7 @@
 .chat-input-div {
     display: flex;
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 50%;
     width: 90%;
     transform: translateX(-50%);
@@ -55,8 +53,8 @@
 }
 
 .chat-input-div > div {
-    width: 2vw;
-    height: 2vw;
+    width: 1.5vw;
+    height: 1.5vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;

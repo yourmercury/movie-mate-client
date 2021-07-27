@@ -1,0 +1,134 @@
+.movieRoom-container {
+    height: 100vh;
+    background-color: var(--theme-1);
+    position: relative;
+    display: flex;
+}
+
+.movie-body {
+    flex-grow: 1;
+    position: relative;
+}
+
+.movie-middle {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+
+
+
+
+
+.movie-nav {
+    padding: 20px 40px;
+}
+
+.link-input-div {
+    background-color: var(--theme-3);
+    width: fit-content;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+}
+
+.link-input-div > input {
+    border: none;
+    background-color: transparent;
+    width: 20vw;
+    margin-right: 0.5vw;
+    outline: none;
+    color: var(--color-grey)
+}
+
+.link-input-div > button {
+    background-color: var(--color-grey);
+    /* background-image: linear-gradient(to bottom right, var(--color-purple) 30%, red); */
+    color: white;
+}
+
+
+
+
+
+
+.movie-bottom {
+    width: 65vw;
+    padding: 0 40px;
+    display: flex;
+}
+
+.movie-bottom > button {
+    padding: 0.7vh 0.8vw;
+    background-color: var(--color-purple);
+    color: white;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.movie-bottom > .second-btn {
+    margin-left: auto;
+    margin-right: 20px;
+    background-color: crimson;
+    color: white;
+}
+
+.movie-bottom > .third-btn {
+    background-color: maroon;
+    color: white;
+    margin-right: 20px;
+}
+
+.movie-bottom > .fourth-btn {
+    background-color: maroon;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.voice-comm-div {
+    padding: 20px 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.voice-parlor {
+    width: 65vw;
+    border: solid var(--theme-2) 0.7px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.voice-avatar {
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+    /* background: red; */
+    margin: auto;
+}
+
+.voice-button {
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice-button > button {
+    color: white;
+    /* font-size: var(--large-font); */
+    border-radius: 3vw;
+    padding: 2vh 2vw;
+    /* background: red; */
+    background-image: linear-gradient(to bottom right, var(--color-purple) 30%, red);
+    /* background-color: var(--color-grey); */
+}
