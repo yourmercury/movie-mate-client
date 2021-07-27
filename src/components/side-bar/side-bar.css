@@ -1,0 +1,23 @@
+.sideBar-container {
+    width: 4vw;
+    background-color: var(--theme-1);
+    height: 100vh;
+    position: relative;
+    padding: 50px 0;
+    border-right: solid 0.5px var(--color-grey);
+}
+
+.sideBar-users {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: solid 2px var(--theme-3);
+}
+
+.avatar-div {
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: var(--theme-3);
+    border-radius: 50%;
+}
